@@ -1,0 +1,34 @@
+[gd_scene load_steps=2 format=3 uid="uid://dm0qcdq5xvbe5"]
+
+[ext_resource type="Theme" uid="uid://b0x6m1y27o65e" path="res://theme/theme.tres" id="1_1dhae"]
+
+[node name="Main" type="MarginContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("1_1dhae")
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 8
+
+[node name="Panel" type="PanelContainer" parent="."]
+layout_mode = 2
+offset_left = 8.0
+offset_top = 8.0
+offset_right = 1016.0
+offset_bottom = 592.0
+
+[node name="Label" type="Label" parent="Panel"]
+layout_mode = 2
+offset_left = 16.0
+offset_top = 16.0
+offset_right = 992.0
+offset_bottom = 56.0
+size_flags_vertical = 0
+text = "Test Label Test Label Test Label Test Label Test Label Test Label Test Label Test Label Test Label Test Label Test Label Test Label Test Label Test Label Test Label Test Label Test Label "
+autowrap_mode = 1
