@@ -1,14 +1,17 @@
-[gd_resource type="Theme" load_steps=12 format=3 uid="uid://b0x6m1y27o65e"]
+[gd_resource type="Theme" load_steps=15 format=3 uid="uid://b0x6m1y27o65e"]
 
-[ext_resource type="StyleBox" path="res://theme/stylebox_button_hover.tres" id="1_w6aj3"]
+[ext_resource type="StyleBox" uid="uid://jovuacwf1n7" path="res://theme/stylebox_button_hover.tres" id="1_w6aj3"]
 [ext_resource type="StyleBox" uid="uid://bct3c4xowu5ir" path="res://theme/stylebox_line_horizontal.tres" id="2_cjp1k"]
 [ext_resource type="StyleBox" uid="uid://c6pgfqq1cain7" path="res://theme/stylebox_button_normal.tres" id="2_vk582"]
 [ext_resource type="FontFile" uid="uid://o5uqakiaooyf" path="res://theme/Code New Roman.otf" id="2_xyhin"]
-[ext_resource type="StyleBox" path="res://theme/stylebox_button_pressed.tres" id="3_714b6"]
+[ext_resource type="StyleBox" uid="uid://buig21xr65d" path="res://theme/stylebox_button_pressed.tres" id="3_714b6"]
 [ext_resource type="StyleBox" uid="uid://cvixu167uolx" path="res://theme/stylebox_scrollbar.tres" id="4_4mg0r"]
 [ext_resource type="StyleBox" uid="uid://baqu0fit4y4jj" path="res://theme/stylebox_scroll_grabber.tres" id="4_iwnpy"]
 [ext_resource type="StyleBox" uid="uid://c6ok2obm8yfuy" path="res://theme/stylebox_scroll_grabber_highlight.tres" id="5_xio26"]
 [ext_resource type="StyleBox" uid="uid://defyffw2hinfu" path="res://theme/stylebox_panel_borderless.tres" id="6_28wr1"]
+[ext_resource type="StyleBox" uid="uid://bufj5iy23stwv" path="res://theme/stylebox_progress_bar.tres" id="10_exj5a"]
+[ext_resource type="StyleBox" uid="uid://bptegk8le7vf1" path="res://theme/stylebox_panel_tooltip.tres" id="10_x5rmk"]
+[ext_resource type="StyleBox" uid="uid://dm3c5ogmr3l6c" path="res://theme/stylebox_progress_fill.tres" id="11_el33v"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_xrpva"]
 
@@ -30,6 +33,7 @@ Button/styles/normal = ExtResource("2_vk582")
 Button/styles/pressed = ExtResource("3_714b6")
 Fonts/fonts/large = ExtResource("2_xyhin")
 Fonts/fonts/normal = ExtResource("2_xyhin")
+HBoxContainer/constants/separation = 8
 HScrollBar/styles/grabber = ExtResource("4_iwnpy")
 HScrollBar/styles/grabber_highlight = ExtResource("5_xio26")
 HScrollBar/styles/grabber_pressed = ExtResource("4_iwnpy")
@@ -40,6 +44,12 @@ HSlider/styles/grabber_area_highlight = ExtResource("5_xio26")
 HSlider/styles/slider = ExtResource("4_4mg0r")
 Panel/styles/panel = ExtResource("6_28wr1")
 PanelContainer/styles/panel = ExtResource("6_28wr1")
+ProgressBar/colors/font_color = Color(0.941176, 0.941176, 0.964706, 1)
+ProgressBar/styles/background = ExtResource("10_exj5a")
+ProgressBar/styles/fill = ExtResource("11_el33v")
+TooltipLabel/colors/font_color = Color(0.941176, 0.941176, 0.964706, 1)
+TooltipPanel/styles/panel = ExtResource("10_x5rmk")
+VBoxContainer/constants/separation = 8
 VScrollBar/styles/grabber = ExtResource("4_iwnpy")
 VScrollBar/styles/grabber_highlight = ExtResource("5_xio26")
 VScrollBar/styles/grabber_pressed = ExtResource("4_iwnpy")

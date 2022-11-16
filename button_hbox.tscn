@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3 uid="uid://ceq6f55wj5d3c"]
+
+[ext_resource type="Texture2D" uid="uid://dvph5d4nvpnbs" path="res://plus_icon.png" id="1_qwohg"]
+[ext_resource type="Texture2D" uid="uid://uy345r3csyto" path="res://minus_icon.png" id="2_46mc4"]
+
+[node name="ButtonHBox" type="HBoxContainer"]
+offset_left = 405.0
+offset_right = 469.0
+offset_bottom = 26.0
+size_flags_horizontal = 8
+
+[node name="EmptySpace" type="VSeparator" parent="."]
+modulate = Color(1, 1, 1, 0)
+self_modulate = Color(1, 1, 1, 0)
+offset_right = 8.0
+offset_bottom = 26.0
+theme_override_constants/separation = 8
+
+[node name="AddButton" type="Button" parent="."]
+offset_left = 12.0
+offset_right = 36.0
+offset_bottom = 26.0
+icon = ExtResource("1_qwohg")
+
+[node name="SubButton" type="Button" parent="."]
+offset_left = 40.0
+offset_right = 64.0
+offset_bottom = 26.0
+icon = ExtResource("2_46mc4")

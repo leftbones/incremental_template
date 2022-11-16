@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://bict3kkdvj44h"]
+
+[node name="UpgradeHBox" type="HBoxContainer"]
+offset_right = 469.0
+offset_bottom = 25.0
+
+[node name="NameLabel" type="Label" parent="."]
+layout_mode = 2
+offset_top = 5.0
+offset_right = 427.0
+offset_bottom = 31.0
+size_flags_horizontal = 3
+size_flags_vertical = 8
+text = "Potent Pheromones"
+vertical_alignment = 1
+
+[node name="BuyButton" type="Button" parent="."]
+layout_mode = 2
+offset_left = 431.0
+offset_right = 469.0
+offset_bottom = 31.0
+text = "Buy"

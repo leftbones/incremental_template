@@ -1,0 +1,35 @@
+[gd_scene format=3 uid="uid://djx3khotn6sa6"]
+
+[node name="ItemHBox" type="HBoxContainer"]
+offset_right = 469.0
+offset_bottom = 25.0
+
+[node name="NameLabel" type="Label" parent="."]
+layout_mode = 2
+offset_top = 8.0
+offset_right = 350.0
+offset_bottom = 31.0
+size_flags_horizontal = 3
+size_flags_vertical = 8
+vertical_alignment = 1
+
+[node name="BuyButton1" type="Button" parent="."]
+layout_mode = 2
+offset_left = 354.0
+offset_right = 380.0
+offset_bottom = 31.0
+text = "x1"
+
+[node name="BuyButton10" type="Button" parent="."]
+layout_mode = 2
+offset_left = 384.0
+offset_right = 420.0
+offset_bottom = 31.0
+text = "x10"
+
+[node name="BuyButton100" type="Button" parent="."]
+layout_mode = 2
+offset_left = 424.0
+offset_right = 469.0
+offset_bottom = 31.0
+text = "x100"
